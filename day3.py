@@ -4,6 +4,7 @@
 
 import os
 
+
 def get_power(stats, supremum):
     d_max = pow(2, len(stats)) -1
     gamma = 0
@@ -20,7 +21,7 @@ def get_power(stats, supremum):
 def make_stats(filename):
     with open(filename) as file:
         line = file.readline()
-        num_bits = len(line) -1
+        num_bits = len(line) - 1
         stats = [0] * num_bits
         count_lines = 1
         for i in range(num_bits):
