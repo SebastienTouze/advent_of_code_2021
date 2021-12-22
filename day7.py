@@ -1,6 +1,6 @@
 # Sébastien Touzé
 # Script for Advent Of Code 2021
-# DAY 06
+# DAY 07
 
 def load_file(filename):
     file = open(filename)
