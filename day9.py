@@ -2,9 +2,6 @@
 # Script for Advent Of Code 2021
 # DAY 09
 
-import copy
-
-
 def count_low_points_and_risk(filename, max_lines=None):
     with open(filename) as file:
         line_up = file.readline().strip()
